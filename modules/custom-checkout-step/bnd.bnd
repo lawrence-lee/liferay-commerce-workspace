@@ -1,0 +1,4 @@
+Bundle-Name: liferay-commerce-sample
+Bundle-SymbolicName: com.liferay.commerce.sample
+Bundle-Version: 1.0.0
+Web-ContextPath: /commerce-sample
