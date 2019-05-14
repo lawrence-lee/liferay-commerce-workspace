@@ -1,1 +1,1 @@
-# liferay-commerce-workspace
+# Sample workspace with Liferay Commerce
