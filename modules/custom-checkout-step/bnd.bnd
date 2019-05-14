@@ -1,4 +1,3 @@
-Bundle-Name: liferay-commerce-sample
-Bundle-SymbolicName: com.liferay.commerce.sample
+Bundle-SymbolicName: com.liferay.commerce.samples.custom.checkout
 Bundle-Version: 1.0.0
-Web-ContextPath: /commerce-sample
+Web-ContextPath: /commerce-custom-checkout-step-sample

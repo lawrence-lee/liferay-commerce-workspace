@@ -102,7 +102,9 @@ public class SampleCommerceCheckoutStep implements CommerceCheckoutStep {
 	@Reference
 	private JSPRenderer _jspRenderer;
 
-	@Reference(target = "(osgi.web.symbolicname=com.liferay.commerce.sample)")
+	@Reference(
+		target = "(osgi.web.symbolicname=com.liferay.commerce.samples.custom.checkout)"
+	)
 	private ServletContext _servletContext;
 
 }
