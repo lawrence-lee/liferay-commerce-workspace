@@ -1,0 +1,3 @@
+Bundle-SymbolicName: com.liferay.commerce.samples.tax.method
+Bundle-Version: 1.0.0
+Web-ContextPath: /commerce-tax-method-sample
