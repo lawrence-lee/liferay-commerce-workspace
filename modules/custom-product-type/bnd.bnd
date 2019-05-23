@@ -1,0 +1,3 @@
+Bundle-SymbolicName: com.liferay.commerce.samples.custom.product.type
+Bundle-Version: 1.0.0
+Web-ContextPath: /commerce-custom-product-type-sample
