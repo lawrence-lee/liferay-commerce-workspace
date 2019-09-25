@@ -2,6 +2,9 @@ package com.liferay.commerce.samples.custom.product.renderer;
 
 import javax.servlet.ServletContext;
 
+import com.liferay.commerce.product.content.render.CPContentRenderer;
+import com.liferay.commerce.product.type.simple.constants.SimpleCPTypeConstants;
+
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
 
@@ -12,7 +15,7 @@ import com.liferay.frontend.taglib.servlet.taglib.util.JSPRenderer;
 		  property = {
 		     "commerce.product.content.renderer.key=" + VirtualCPContentRenderer.KEY,
 		     "commerce.product.content.renderer.order=" + Integer.MIN_VALUE,
-		     "commerce.product.content.renderer.type=" + VirtualCPTypeConstants.NAME
+		     "commerce.product.content.renderer.type=" + SimpleCPTypeConstants.NAME
 		  },
 		  service = CPContentRenderer.class
 		)
